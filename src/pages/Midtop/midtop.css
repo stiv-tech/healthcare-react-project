@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+*{
+    font-family: "Muilish", sans-serif;
+}
+.mid-diff{
+    text-align: center;
+    margin-top: 7%;
+}
+.mid-diff h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    padding: 20px 20px;
+}
+.mid-image{
+    background: #000000;
+border-radius: 5px;
+height: 2px;
+margin-bottom: 3%;
+}

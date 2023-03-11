@@ -1,0 +1,20 @@
+.gfd{
+    background-color: #67C3F3;
+}
+.sdg{
+    list-style: none;
+    color: #fff;
+}
+.list {
+    margin-top: 10% !important;
+    
+}
+.ada{
+    color: #fff;  
+}
+
+@media only screen and (max-width: 650px) {
+    .dad{
+        display: flex;
+    }
+}

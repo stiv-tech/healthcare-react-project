@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+*{
+    font-family: "Muilish", sans-serif;
+}
+
+.midcon{
+    text-align: center;
+    
+}
+.mid-img-con{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+.mid-con-page{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    padding: 20px 10px;
+    text-align: left;
+}
+.mid-con-para{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+}
+.middy-con{
+    background: #FFFFFF;
+/* drop shadow */
+
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 1.0);
+border-radius: 20px;
+padding: 10px;
+
+
+}
+.mid-con-last{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    text-align: left;
+}
+
+.btn-mid{
+    outline: none;
+    box-shadow: none;
+    border: 1.4px solid #458FF6;
+    background-color: #fff;
+    color: #458FF6;
+    padding: 15px 55px;
+    border-radius: 55px; 
+    font-weight: 700;
+    font-size: 18px;
+}
+.last-btn{
+    padding: 50px 0px;
+}

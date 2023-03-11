@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+*{
+    font-family: "Muilish", sans-serif;
+}
+
+.service{
+    margin-top: 118px;
+}
+
+.service-main-section h2{
+    font-weight: 700;
+
+}
+.service-main-section p{
+    color: #7D7987;
+}
+
+
+.service-second-section{
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 10px;
+}
+.service-section-body h3{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.service-section-body p{
+    color:#7D7987;
+    
+}
+.service-btn{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #458FF6;
+    background: #fff;
+    padding: 8px 30px;
+    color:  #458FF6;
+    border-radius: 18px;
+    font-weight: 700; 
+}
+.service-btn:hover{
+    background: #458FF6;
+    color: #fff;
+    transition: 2s;
+}
+.service-section-footer{
+    margin-top: 60px;
+}
+
