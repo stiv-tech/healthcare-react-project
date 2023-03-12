@@ -1,12 +1,11 @@
 import React from 'react'
-import Navbar from "../src/pages/navigations/Nav"
+import Navbar from "./pages/navigation/Nav"
 import Herosection from "./pages/Hero/Hero"
 import Service from './pages/service/Service'
 import Download from "./pages/Myapp/Download"
 import Midtop from "./pages/Midtop/Midtop"
 import Middly from "./pages/Midcontent/Midcontent"
 import Footerpaggy from "./pages/Footerpage/Footerpage"
-import Display from "./pages/Display"
 
 function View() {
   return (
@@ -15,11 +14,9 @@ function View() {
       <Herosection/>
       <Service/>
       <Download/>
-      <Display/>
       <Midtop/>
       <Middly/>
       <Footerpaggy/>
-      
       
     </div>
   )

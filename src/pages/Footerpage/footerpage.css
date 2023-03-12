@@ -12,9 +12,8 @@
 .ada{
     color: #fff;  
 }
-
-@media only screen and (max-width: 650px) {
-    .dad{
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .ede{
         display: flex;
     }
 }

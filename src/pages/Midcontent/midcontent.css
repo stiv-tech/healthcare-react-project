@@ -60,3 +60,19 @@ padding: 10px;
 .last-btn{
     padding: 50px 0px;
 }
+@media screen and (max-width: 650px){
+    .mid-img-con{
+        width: 90%;
+    }
+    .mid-con-para, .mid-con-page, .mid-con-last{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .mid-img-con{
+        width: 100%;
+    }
+    .mid-con-para, .mid-con-page, .mid-con-last{
+        text-align: center;
+    }
+}

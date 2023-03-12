@@ -46,3 +46,24 @@
 .sharp{
     margin-top: 15%;
 }
+@media screen and (max-width: 650px){
+    .down-section-sec p{
+        margin-left: 0%;
+    }
+    .down-section-sec h2{
+        margin-left: 0%;
+        
+    }
+    .sharp{
+        margin-top: 0%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .down-section-sec {
+        text-align: center;
+    }
+    .sharp{
+        margin-top: 0%;
+    }
+}

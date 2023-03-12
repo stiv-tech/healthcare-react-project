@@ -20,3 +20,8 @@ border-radius: 5px;
 height: 2px;
 margin-bottom: 3%;
 }
+@media screen and (max-width: 650px){
+    .mid-diff h2{
+        font-size: 20px;
+    }
+}

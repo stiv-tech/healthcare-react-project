@@ -14,6 +14,7 @@ function Footerpage() {
 
             <p className='mt-4 ada'>©Trafalgar PTY LTD 2020. All rights reserved</p>
          </div>
+         
             <div className='col-sm-12 col- md-12 col-lg-2'>
             <ul className='sdg'>
               <h4 className='mt-5 mb-4'>Company</h4>
@@ -29,10 +30,6 @@ function Footerpage() {
              <li className="list">
                     <a className="link ada" href="#">Apps</a>
              </li>
-                {/* <p className='mt-3 ml-3'> <a className="link ada" href="#">About</a></p>
-                <p className='mt-3 ml-3'> <a className="link ada" href="#">Testimonials</a></p>
-                <p className='mt-3 ml-3'> <a className="link ada" href="#">Find a doctor</a></p>
-                <p className='mt-3 ml-3'> <a className="link ada" href="#">Apps</a></p> */}
             </ul>
             </div>
             <div className='col-sm-12 col- md-12 col-lg-2 '>
