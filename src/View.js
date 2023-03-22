@@ -7,6 +7,7 @@ import Midtop from "./pages/Midtop/Midtop"
 import Middly from "./pages/Midcontent/Midcontent"
 import Footerpaggy from "./pages/Footerpage/Footerpage"
 import Display from "./pages/Display"
+// import Displaying from "./D/Display/Display"
 
 function View() {
   return (
@@ -15,6 +16,7 @@ function View() {
       <Herosection/>
       <Service/>
       <Download/>
+      {/* <Displaying/> */}
       <Display/>
       <Midtop/>
       <Middly/>

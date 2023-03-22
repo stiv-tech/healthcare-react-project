@@ -1,0 +1,109 @@
+.car-cont {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: #fff;
+    z-index: 1;
+}
+
+.disp-cont {
+    padding-bottom: 100px;
+}
+.car-sect {
+    max-width: 100%;
+    background: linear-gradient(to left, rgb(103, 195, 243), rgb(90, 152, 242));
+    border-radius: 24px;
+    padding-bottom: 50px;
+}
+
+.car-sect h3 {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.car-line {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 65px 0;
+}
+
+.car-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 90px 60px 90px;
+    align-items: center;
+}
+
+.car-img img {
+    border: 4px solid #fff;
+    border-radius: 100px;
+}
+
+.founder-details {
+    padding-right: 60px;
+}
+
+.founder-details h5 {
+    font-weight: 700;
+}
+
+.custom-arrow {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    top: 101.2%;
+    transform: translateY(-50%);
+    z-index: 2 !important;
+    font-size: 20px;
+    color: #67C3F3;
+    padding-bottom: 30px;
+}
+
+.custom-arrow:hover {
+    color: #458FF6;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.custom-arrow.left {
+    left: 550px;
+}
+
+.custom-arrow.right {
+    right: 550px;
+}
+
+.custom-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #67C3F3;
+    top: -10px;
+    padding: 2px 2px;
+}
+
+.custom-dot.active {
+    background-color: #458FF6;
+}
+
+@media (max-width: 900px) {
+.custom-arrow {
+    display: none;
+}
+}
+  
+  
+
+
+
+
+
