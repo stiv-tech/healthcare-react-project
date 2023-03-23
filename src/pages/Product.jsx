@@ -4,10 +4,13 @@ return (
     <div className="container carol mt-5">
       <div className="card ">
       <h2>{props.heading}</h2>
+      <div className="line-img">
       <img className="product--image" src={props.url} alt="product image" />
-
+      </div>
+      
+     <div className="container">
      <div className="row">
-      <div className='col-sm-12 col-md-12 col-lg-6'>
+      <div className='col-sm-12 col-md-12 col-lg-6 column'>
         <div className="differ">
           <div>
             <img className="product--image2" src={props.url2} alt="product image" />
@@ -19,10 +22,12 @@ return (
         </div>
       
     </div>
-    <div className='col-sm-12 col-md-12 col-lg-6 mt-5'>
+    <div className='col-sm-12 col-md-12 col-lg-6 mt-5 column'>
       <p>{props.definition}</p>
    </div>
  </div>
+     </div>
+
 </div>
 </div>
 );

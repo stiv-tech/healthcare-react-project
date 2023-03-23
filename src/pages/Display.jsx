@@ -17,7 +17,7 @@ definition={item.definiation}
 return (
 <div className="App">
 
-<Carousel showDots={true} responsive={responsive} autoPlay autoPlaySpeed={3000} infinite={true}>
+<Carousel showDots={true} responsive={responsive} autoPlay autoPlaySpeed={3000} infinite={true} renderButtonGroupOutside={true} arrows={true}>
 {product}
 </Carousel>
 
